@@ -18,8 +18,8 @@ import com.google.firebase.database.FirebaseDatabase
 
 class CustomerLoginActivity : AppCompatActivity() {
 
-    private var mEmail: EditText? = null
-    private  var mPassword:EditText? = null
+    private lateinit var mEmail: EditText
+    private lateinit var mPassword:EditText
     private val TAG = "CustomerLoginActivity"
 
     private var mAuth: FirebaseAuth? = null
@@ -61,8 +61,8 @@ class CustomerLoginActivity : AppCompatActivity() {
             return@OnClickListener
         })
         mLogin.setOnClickListener {
-            val email = mEmail.getText().toString()
-            val password: String = mPassword.getText().toString()
+            val email = mEmail.text.toString()
+            val password: String = mPassword.text.toString()
             mAuth!!.signInWithEmailAndPassword(email, password).addOnCompleteListener(
                 this@CustomerLoginActivity
             ) { task ->
