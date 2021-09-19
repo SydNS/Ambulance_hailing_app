@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <layer-list>
+            <item android:drawable="@drawable/ambulance"
+
+                android:top="-110dp"
+                android:bottom="-110dp"
+                android:start="-40dp"
+                android:end="-40dp"/>
+            <item android:drawable="#8A009688"
+                android:top="-110dp"
+                android:bottom="-110dp"
+                android:start="-40dp"
+                android:end="-40dp"/>
+        </layer-list>
+    </item>
+</selector>
