@@ -6,7 +6,9 @@
         <entry key="app/src/main/res/drawable/ambulance_bg.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/drawable/editable_theme.xml" value="0.20974358974358975" />
-        <entry key="app/src/main/res/layout/activity_customer_login.xml" value="1.0" />
+        <entry key="app/src/main/res/layout/activity_customer_login.xml" value="0.196875" />
+        <entry key="app/src/main/res/layout/activity_customer_registration.xml" value="0.196875" />
+        <entry key="app/src/main/res/layout/activity_driver_login.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.196875" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21302083333333333" />
       </map>
