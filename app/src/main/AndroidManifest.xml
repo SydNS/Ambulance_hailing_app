@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Eric_Irene">
         <activity
+            android:name=".CustomerRegistration"
+            android:exported="true" />
+        <activity
+            android:name=".DriverLoginActivity"
+            android:exported="true" />
+        <activity
             android:name=".CustomerLoginActivity"
             android:exported="true" />
         <activity
