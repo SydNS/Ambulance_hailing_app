@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1073801644468",
+    "project_id": "ambulanceericirene",
+    "storage_bucket": "ambulanceericirene.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073801644468:android:b840f85aad6e2871ad0ae1",
+        "android_client_info": {
+          "package_name": "com.example.eric_irene"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073801644468-biqdgj9g5nmjneld59s1thhu6iha5hb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmmEvBiRwDhOdt71S2vit92sTVXvL-MVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073801644468-biqdgj9g5nmjneld59s1thhu6iha5hb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -14,8 +14,10 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/email"
         android:layout_marginStart="44dp"
+        android:layout_marginEnd="277dp"
         android:labelFor="@id/email"
         android:text="Email Address"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         tools:layout_editor_absoluteY="110dp" />
 
