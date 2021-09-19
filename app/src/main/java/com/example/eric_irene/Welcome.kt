@@ -27,7 +27,7 @@ class Welcome : AppCompatActivity() {
         setContentView(R.layout.activity_welcome)
         rellay1 = findViewById(R.id.rellay1) as RelativeLayout
         rellay2 = findViewById(R.id.rellay2) as RelativeLayout
-        startService(Intent(this@Welcome_Activity, onAppKilled::class.java))
+        startService(Intent(this, onAppKilled::class.java))
         handler.postDelayed(runnable, 1000) //2000 is the timeout for the splash
     }
 
@@ -40,12 +40,12 @@ class Welcome : AppCompatActivity() {
     }
 
     fun sendMessage(view: View?) {
-        val intent = Intent(this@Welcome_Activity, CustomerLoginActivity::class.java)
+        val intent = Intent(this, CustomerLoginActivity::class.java)
         startActivity(intent)
     }
 
     fun sendMessage2(view: View?) {
-        val intent = Intent(this@Welcome_Activity, DriverLoginActivity::class.java)
+        val intent = Intent(this, DriverLoginActivity::class.java)
         startActivity(intent)
     }
 }
