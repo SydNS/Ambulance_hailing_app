@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Eric_Irene">
         <activity
+            android:name=".DriverMapActivity"
+            android:exported="true" />
+        <activity
             android:name=".HistoryActivity"
             android:exported="true" />
         <activity
