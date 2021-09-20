@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverMapActivity">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:background="@drawable/btnround"
+        android:padding="1sp"
+        android:src="@drawable/logout_foreground"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/history"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_weight="1"
+        android:background="@drawable/btnround"
+        android:padding="1sp"
+        android:src="@drawable/history_foreground"
+        android:text="History"
+        app:layout_constraintEnd_toEndOf="@+id/settings"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/settings"
+        app:layout_constraintTop_toBottomOf="@+id/settings" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:background="@drawable/btnround"
+        android:padding="1sp"
+        android:src="@drawable/person_foreground"
+        android:text="Profile"
+        app:layout_constraintEnd_toEndOf="@+id/logout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/logout"
+        app:layout_constraintTop_toBottomOf="@+id/logout" />
+
+    <Switch
+        android:id="@+id/workingSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Working"
+        app:layout_constraintEnd_toEndOf="@+id/history"
+        app:layout_constraintStart_toStartOf="@+id/history"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <LinearLayout
+        android:id="@+id/customerInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:elevation="1dp"
+        android:orientation="vertical"
+        android:translationZ="1dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="40sp">
+
+                <TextView
+                    android:id="@+id/customerDestination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10sp"
+                    android:text="Destination: --" />
+
+                <TextView
+                    android:id="@+id/customerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20sp"
+                    android:paddingBottom="10sp" />
+
+                <TextView
+                    android:id="@+id/customerPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20sp"
+                    android:paddingBottom="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/rideStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80ced6"
+            android:text="Pickup Customer" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
