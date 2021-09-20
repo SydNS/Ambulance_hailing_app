@@ -5,16 +5,23 @@
       <map>
         <entry key="app/src/main/res/drawable/ambulance_bg.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/drawable/btnround.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/drawable/editable_theme.xml" value="0.20974358974358975" />
+        <entry key="app/src/main/res/drawable/history_foreground.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/drawable/logout_foreground.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/drawable/person_foreground.xml" value="0.21302083333333333" />
         <entry key="app/src/main/res/layout/activity_customer_login.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/activity_customer_registration.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/activity_customer_settings.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_driver_login.xml" value="0.196875" />
+        <entry key="app/src/main/res/layout/activity_driver_map.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/activity_history.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/activity_maps.xml" value="0.67" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.196875" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/logout_round.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/person_round.xml" value="0.21302083333333333" />
       </map>
     </option>
   </component>
