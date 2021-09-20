@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Eric_Irene</string>
+    <string name="app_name">Ambulance Mobi</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="error_invalid_email">Invalid Email Address</string>
-    <string name="error_incorrect_password">InCorrect Password</string>
+    <string name="error_incorrect_password">InCorrect Password, must bear characters n numbers</string>
     <string name="error_field_required">email required</string>
     <string name="error_invalid_no">invalid number</string>
 </resources>
