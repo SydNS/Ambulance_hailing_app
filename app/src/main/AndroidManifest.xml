@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Eric_Irene">
         <activity
+            android:name=".HistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerSettingsActivity"
+            android:exported="true" />
+        <activity
             android:name=".CustomerRegistration"
             android:exported="true" />
         <activity
