@@ -3,4 +3,6 @@
     <string name="title_activity_maps">MapsActivity</string>
     <string name="error_invalid_email">Invalid Email Address</string>
     <string name="error_incorrect_password">InCorrect Password</string>
+    <string name="error_field_required">email required</string>
+    <string name="error_invalid_no">invalid number</string>
 </resources>
