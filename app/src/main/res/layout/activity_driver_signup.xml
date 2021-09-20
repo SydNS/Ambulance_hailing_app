@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:elevation="10dp"
     android:orientation="vertical"
-    tools:context=".CustomerLoginActivity">
+    tools:context=".CustomerRegistration">
 
 
     <TextView
@@ -88,14 +88,15 @@
         app:layout_constraintVertical_bias="0.05" />
 
     <Button
-        android:id="@+id/login"
-        android:layout_width="134dp"
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="68dp"
         android:background="@drawable/btn_bg"
         android:elevation="10dp"
-        android:text="login"
+        android:text="Verify Ypur Email"
+        app:layout_constraintEnd_toEndOf="@+id/password"
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
@@ -106,26 +107,11 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="16dp"
-        android:text="Or, Create a new account :"
+        android:text="Aready Have An Account"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toEndOf="@+id/registration"
-        app:layout_constraintStart_toStartOf="@+id/login"
-        app:layout_constraintTop_toBottomOf="@+id/registration" />
-
-    <Button
-        android:id="@+id/registration"
-        android:layout_width="133dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="55dp"
-        android:background="@drawable/btn_bg"
-        android:elevation="10dp"
-        android:text="Sign Up"
-        app:layout_constraintBottom_toBottomOf="@+id/login"
-        app:layout_constraintEnd_toEndOf="@+id/password"
-        app:layout_constraintStart_toEndOf="@+id/login"
-        app:layout_constraintTop_toTopOf="@+id/login" />
+        app:layout_constraintEnd_toEndOf="@+id/signup"
+        app:layout_constraintStart_toStartOf="@+id/signup"
+        app:layout_constraintTop_toBottomOf="@+id/signup" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -147,13 +133,15 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView"
         android:layout_marginTop="20dp"
-        android:text="Ambulance Drivers's Login"
+        android:layout_marginEnd="86dp"
+        android:text="Sign Up With your Email"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
 

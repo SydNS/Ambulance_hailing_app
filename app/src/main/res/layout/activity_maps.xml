@@ -28,7 +28,6 @@ tools:context=".MapsActivity">
             android:layout_marginTop="2dp"
             android:layout_marginRight="2dp"
             android:layout_weight="1"
-            android:drawableStart="@drawable/logout"
             android:background="@drawable/btn_bg"
             android:padding="1sp"
             android:text="Logout" />

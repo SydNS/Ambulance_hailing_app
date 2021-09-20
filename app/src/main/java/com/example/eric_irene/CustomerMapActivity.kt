@@ -39,7 +39,7 @@ import com.google.firebase.database.*
 import java.util.ArrayList
 import java.util.HashMap
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+class CustomerMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private var mMap: GoogleMap? = null
     var mLastLocation: Location? = null
