@@ -35,6 +35,9 @@
             android:name=".DriverMapActivity"
             android:exported="true" />
         <activity
+            android:name=".CustomerMapActivity"
+            android:exported="true" />
+        <activity
             android:name=".HistoryActivity"
             android:exported="true" />
         <activity
