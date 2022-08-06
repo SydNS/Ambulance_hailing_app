@@ -44,10 +44,10 @@ class DriverMapActivity : AppCompatActivity(), OnMapReadyCallback, RoutingListen
 
     private var mFusedLoactionClient: FusedLocationProviderClient? = null
 
-    private lateinit var mLogout: Button
-    private  lateinit var mSetting :Button
+    private lateinit var mLogout: ImageButton
+    private  lateinit var mSetting :ImageButton
     private lateinit var mrideStatus: Button
-    private lateinit var mHistory:Button
+    private lateinit var mHistory:ImageButton
 
     private lateinit var mworkingSwitch: Switch
 
@@ -93,7 +93,7 @@ class DriverMapActivity : AppCompatActivity(), OnMapReadyCallback, RoutingListen
         } else {
             mapFragment!!.getMapAsync(this)
         }
-        mSetting = findViewById<Button>(R.id.settings)
+        mSetting = findViewById(R.id.settings)
         mLogout = findViewById(R.id.logout)
         mrideStatus = findViewById(R.id.rideStatus)
         mworkingSwitch = findViewById(R.id.workingSwitch)
@@ -368,7 +368,7 @@ class DriverMapActivity : AppCompatActivity(), OnMapReadyCallback, RoutingListen
                     myLocation = LatLng(mLastLocation!!.latitude, mLastLocation!!.longitude)
                     myMarker = mMap!!.addMarker(
                         MarkerOptions().position(myLocation).title("Your Ambulance")
-                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.ambulance))
+                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.ambumap))
                     )
                     mMap!!.moveCamera(CameraUpdateFactory.newLatLng(latLng))
                     mMap!!.animateCamera(CameraUpdateFactory.zoomTo(11f))
